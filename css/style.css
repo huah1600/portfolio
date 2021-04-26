@@ -147,7 +147,12 @@ nav { display: none; }/*Här stänger jag av home my work och allt annat i navba
 }
 
 
-
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(../img/office2.jpg);
+    color: var(--clr-light);
+    
+}
 
 
 
