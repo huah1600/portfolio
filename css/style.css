@@ -98,6 +98,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+ 
 }
 
 .section__title--intro {
@@ -220,6 +221,11 @@ nav { display: none; }
     }
 }
 
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 
 
