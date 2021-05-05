@@ -16,6 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
+     --clr-silver: #ffffff;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -162,13 +163,16 @@ nav { display: none; }
     
     .section__subtitle--intro {
         align-self: start;
+        /*
         grid-column: -1 / 1;
         grid-row: 2;
+        */
         text-align: right;
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+    
 }
 
 
@@ -204,8 +208,13 @@ nav { display: none; }
 }
 
 .service {
+    
     max-width: 500px;
     margin: 0 auto;
+}
+.service {
+     color: var(--clr-silver);
+     position: relative;
 }
 
 @media (min-width: 800px) {
